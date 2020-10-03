@@ -16,3 +16,9 @@ Example:
 10
 ...
 """
+count = 0 
+while True:
+    count= count + 2
+    print(count)
+    if count ==20:
+        break 
