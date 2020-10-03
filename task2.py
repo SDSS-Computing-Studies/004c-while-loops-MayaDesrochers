@@ -20,7 +20,7 @@ password= ""
 
 while True:
     name !="admin" and password !="12345"
-    name=input("Enter username")
+    name=(input("Enter username")).strip()
     password=input("Enter password")
 
     if name =="admin" and password =="12345":
