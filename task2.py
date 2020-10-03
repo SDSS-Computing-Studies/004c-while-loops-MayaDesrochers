@@ -15,3 +15,16 @@ outputs:
 Access granted
 Access denied
 """
+name = ""
+password= ""
+
+while True:
+    name !="admin" and password !="12345"
+    name=input("Enter username")
+    password=input("Enter password")
+
+    if name =="admin" and password =="12345":
+        print("Access granted")
+        break 
+    else:
+        print("Access denied") 
